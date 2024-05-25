@@ -1,0 +1,36 @@
+body{
+    position: relative;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board div {
+    display: flex;
+    gap: 12px;
+    margin: 0;
+}
+
+.board div h2{
+    font-size: 50px;
+}
+
+.scores{
+    padding: 24px;
+    margin: 12px;
+    background-color: rgb(210, 210, 210);
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;   
+}
